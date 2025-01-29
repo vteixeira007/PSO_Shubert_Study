@@ -1,4 +1,4 @@
-# Estudo de Convergência com PSO para a Função Shubert
+# Estudo de Convergência com Algoritmo de otimização por enxame de partículas (PSO) para a Função Shubert
 
 ## Autores
 - THADEU CARNEIRO DA SILVA 
