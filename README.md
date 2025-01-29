@@ -31,7 +31,7 @@ O objetivo é apresentar um estudo de convergência utilizando o PSO para a fun�
 #### Peso de Inércia Constante
 Para estas análises, utilizou-se o Peso de Inércia Constante, ou seja, W = 0,7. Os resultados são apresentados na Figura 1.
 
-show.Figure_1.png
+![Texto Alternativo](Figure_1.png)
 
 #### Peso de Inércia Randômico
 O Peso de Inércia Randômico é definido pela equação $\( W = 0.5 + \frac{rand}{2} \)$, onde "rand" representa um número aleatório gerado pelo Octave/Matlab. Os resultados são apresentados na Figura 2.
