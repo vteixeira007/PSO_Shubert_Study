@@ -1,8 +1,8 @@
 # Estudo de Convergência com PSO para a Função Shubert
 
 ## Autores
-THADEU CARNEIRO DA SILVA 
-VINICIUS DE LIRA TEIXEIRA
+- THADEU CARNEIRO DA SILVA 
+- VINICIUS DE LIRA TEIXEIRA
 
 ## Introdução
 A otimização numérica é a tarefa de determinar valores ótimos dentro de um universo de possibilidades, onde cada possibilidade é avaliada por uma função de avaliação, que pode ser linear ou não linear. Este projeto utiliza o algoritmo de Otimização por Enxame de Partículas (PSO) para estudar a convergência na função Shubert.
