@@ -28,13 +28,13 @@ O objetivo é apresentar um estudo de convergência utilizando o PSO para a fun�
 Para estas análises, utilizou-se o Peso de Inércia Constante, ou seja, W = 0,7. Os resultados são apresentados na Figura 1.
 
 #### Peso de Inércia Randômico
-O Peso de Inércia Randômico é definido pela equação \( W = 0.5 + \frac{rand}{2} \), onde "rand" representa um número aleatório gerado pelo Octave/Matlab. Os resultados são apresentados na Figura 2.
+O Peso de Inércia Randômico é definido pela equação $\( W = 0.5 + \frac{rand}{2} \)$, onde "rand" representa um número aleatório gerado pelo Octave/Matlab. Os resultados são apresentados na Figura 2.
 
 #### Peso de Inércia com Decrescimento Linear
-O Peso de Inércia com Decrescimento Linear é descrito pela expressão $\( W = W_{max} - \left( \frac{W_{max} - W_{min}}{I_{max}} \right) \cdot t \)$, onde \( W_{max} = 0.9 \) e \( W_{min} = 0.4 \). Os resultados são apresentados na Figura 3.
+O Peso de Inércia com Decrescimento Linear é descrito pela expressão $\( W = W_{max} - \left( \frac{W_{max} - W_{min}}{I_{max}} \right) \cdot t \)$, onde $\( W_{max} = 0.9 \)$ e $\( W_{min} = 0.4 \)$. Os resultados são apresentados na Figura 3.
 
 #### Peso de Inércia com Função Sigmoide
-O Peso de Inércia com Função Sigmoide é definido pela expressão \( W = \frac{W_{max} - W_{min}}{1 + \exp(u \cdot (t - I_{max}))} + W_{max} \), onde \( u = 10^{(\log(I_{max}) - 2)} \). Os resultados são apresentados na Figura 4.
+O Peso de Inércia com Função Sigmoide é definido pela expressão $\( W = \frac{W_{max} - W_{min}}{1 + \exp(u \cdot (t - I_{max}))} + W_{max} \)$, onde $\( u = 10^{(\log(I_{max}) - 2)} \)$. Os resultados são apresentados na Figura 4.
 
 ### Análises Comparativas
 Na Figura 5, pode-se visualizar a Função de Shubert e os respectivos pontos de mínimos determinados por cada iteração. As variantes do Peso de Inércia foram executadas sucessivamente por 30 vezes, conforme pode ser observado na Tabela 1.
